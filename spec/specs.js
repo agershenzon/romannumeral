@@ -1,5 +1,5 @@
 describe("replace", function(){
-  it("should find the vowels and replace with -", function(){
-    expect(countBy("ant")).to.equal("-nt")
+  it("should find a string and plit into array", function(){
+    expect(countBy("ant")).to.equal(["a","n","t"])
   });
 });
