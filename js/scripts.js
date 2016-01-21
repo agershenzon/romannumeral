@@ -1,29 +1,23 @@
+var upperNum = function (numerals) {
+// var I = 1;
+// var V = 5;
+// var X = 10;
+// var L = 50;
+// var C = 100;
+// var D = 500;
+// var M = 1000;
 
-var splitword = function (word) {
-var chop = word.split("");
-return chop;
+var upperNumerals = numerals.toUpperCase()
+return upperNumerals
 }
 
-var findvar = function (word) {
-var letters = splitword(word)
-var newarray = []
-letters.forEach(function(i) {
-  if(i.match(/[aeiou]/)){
-    i = "-"
-    newarray.push(i)
-  }else {
-    newarray.push(i)
-    }
-  });
-var results = newarray.join("");
-return results;
-};
+var numArray = function (numerals) {
+  var upper = upperNum(numerals)
+  var split = upper.split("")
+}
+
 
 $(function () {
-  $("button").click(function(){
-    var results = $("#hide").val();
-    var runFunction = findvar(results);
-    $("p#results").text(runFunction)
-  })
+
 
 })
