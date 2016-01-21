@@ -19,8 +19,8 @@ var valueArray = function (numerals) {
   var C = 100;
   var D = 500;
   var M = 1000;
-  console.log(newarray);
-  console.log(array);
+  // console.log(newarray);
+  // console.log(array);
 
   array.forEach(function(entry){
     if(entry.match(/[I]/)){
@@ -44,7 +44,11 @@ var valueArray = function (numerals) {
     } else if (entry.match(/[M]/)) {
       entry = 1000;
       newarray.push(entry);
+    }else {
+      newarray ="Please Enter Correct Numerals"
     };
+    // debugger;
+    console.log(newarray)
     return newarray
   });
 };
