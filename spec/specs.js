@@ -21,8 +21,8 @@ describe("valueArray", function(){
 
 });
 
-describe("addArray", function () {
+describe("totalArray", function () {
 it("takes the sum total of all arrays", function(){
-  expect[10, 5, 100].to.equal[115]
+  expect(totalArray[10, 5, 100]).to.equal([122215]);
 });
 });

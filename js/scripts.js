@@ -48,10 +48,23 @@ var valueArray = function (numerals) {
       newarray ="Please Enter Correct Numerals"
     };
     // debugger;
-    console.log(newarray)
+    // console.log(newarray)
     return newarray
   });
 };
+    var totalArray = function(numerals) {
+    var total = valueArray(numerals)
+    alert("hey")
+    var x = 0
+    total.forEach(function(y){
+    x += y
+    console.log(x)
+    });
+    console.log(x)
+    return x
+    };
+
+
 
 // $(function () {
 //
